@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body {
+    font-family: 'Architects Daughter', cursive;
+    background-color: aqua;
+    text-align: center;
+}
+button{
+    font-family: 'Kalam', cursive;
+    background: red;
+    color: white;
+    font-size: 120%;
+}
+p{
+    color : black;
+    
+}
+h1 {
+    color: indigo;
+    height: 90 px;
+    width: 90 px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+}
+
+
+h3 {
+    color: orange;
+    padding: 3px 3px 3px 3px;
+    
+}
+#scroll{
+    padding: 50px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+    }
+    
+    @keyframes mymove{
+    from{
+    top: 15px;
+    }
+    to{
+    top: 100px;
+    }
+    }
+    *{
+        margin: 10px;
+        padding: 10px;
+        
+        }
+        @media only screen and(max-width: 600px)
+{
+.wrap-reverse{
+flex-wrap: wrap-reverse;
+}
+
+.container{
+text-align: center;
+}
+
+
+
+    
+}
+
+   

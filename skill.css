@@ -1,0 +1,14 @@
+img{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    margin: 105px;
+    float: left; 
+    
+}
+body{
+    background-color: aqua;
+}
+.imgContainer{
+    float:left;
+    }
